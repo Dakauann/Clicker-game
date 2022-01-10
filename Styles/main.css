@@ -1,3 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Spline+Sans:wght@300&display=swap');
+
+body {
+    background: radial-gradient(circle, rgb(0, 102, 255) 90%, rgba(0,0,0,1) 100%);
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10%;
+    size: 100%;
+    
+}
+
+.logo {
+
+max-width: 130px;
+max-height: 130px;
+
+}
+
+.hrl {
+ background-color: black;
+ height: 2px;
+}
+
+.jogo1 { 
+    
+    
+    color: black;
+    font-family: 'Spline Sans', sans-serif;
+    transition: 0.4s;
+    font-size: 25px;
+   } 
+
+.jogo2 { 
+    display: flex;
+    color: black;
+    text-decoration: none;
+    font-family: 'Spline Sans', sans-serif;
+    transition: 0.4s;
+    font-size: 25px;
+   }
+
+.jogo3 { 
+ display: flex;
+ color: black;
+ text-decoration: none;
+ font-family: 'Spline Sans', sans-serif;
+ transition: 0.4s;
+ font-size: 25px;
+}
+
+.jogo1:hover { 
+    text-decoration: none;
+    display: flex;
+    color: rgb(2, 164, 240);
+    text-decoration: none;
+    font-family: 'Spline Sans', sans-serif;
+    transform: scale(1.2);
+} 
+.jogo2:hover { 
+    display: flex;
+    color: rgb(2, 164, 240);
+    text-decoration: none;
+    font-family: 'Spline Sans', sans-serif;
+    transform: scale(1.2);
+} 
+.jogo3:hover { 
+    display: flex;
+    color: rgb(2, 164, 240);
+    text-decoration: none;
+    font-family: 'Spline Sans', sans-serif;
+    transform: scale(1.2);
+} 
+
 #dinheiro {
     margin: auto;
     margin-top: 20px;
@@ -24,6 +101,7 @@
     padding: 70px;
     margin: auto;
     margin-top: 40px;
+    border-radius: 1em;
     border: none;
     background-color: black;
     color: white;
@@ -42,7 +120,7 @@
     font-size: 101%;
     cursor: pointer;
     box-shadow: 3px 8px gray;
-    transition: 0.3s;
+    transform: scale(1.1);
 }
 
 #botao-aumentar:active {
@@ -50,8 +128,8 @@
 }
 
 #upgrades {
-  display: flex;
-  flex-direction: column;
+  display: inline-block;
+  
   gap: 5px;
   height: 70px;
   width: 120px;
@@ -72,7 +150,7 @@
     background-color: rgb(80, 80, 80);
     margin-top: 5rem;
     padding: 20px;
-    transition: 0.5s;
+    transform: scale(1.1);
     color: white;
 }
 #x3 {
@@ -88,7 +166,7 @@
     border: none;
     background-color: rgb(80, 80, 80);
     padding: 20px;
-    transition: 0.5s;
+    transform: scale(1.1);
 }
 
 #x4 {
@@ -104,7 +182,7 @@
     border: none;
     background-color: rgb(80, 80, 80);
     padding: 20px;
-    transition: 0.5s;
+    transform: scale(1.1);
 }
 
 #isX2 {

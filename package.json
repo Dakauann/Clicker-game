@@ -1,0 +1,19 @@
+{
+  "name": "click-game",
+  "version": "1.0.0",
+  "description": "click gaming using html",
+  "main": "main.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dakauann/Clicker-game-java-script--css---html.git"
+  },
+  "author": "Trash",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Dakauann/Clicker-game-java-script--css---html/issues"
+  },
+  "homepage": "https://github.com/Dakauann/Clicker-game-java-script--css---html#readme"
+}

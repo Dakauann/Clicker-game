@@ -10,7 +10,7 @@ const total = document.getElementById('dinheiro')
 let clicks = 1;
 let initialMoney = 1;
 
-let mainMulti = 1;
+let mainMulti = 1; 
 let multix2 = false 
 let multix3 = false
 let multix4 = false

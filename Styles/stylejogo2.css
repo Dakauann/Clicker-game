@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Spline+Sans:wght@300&display=swap');
+
+body {
+    background: radial-gradient(circle, rgb(0, 102, 255) 43%, rgba(0,0,0,1) 100%);
+   
+   }
+   
+   header {
+       display: flex;
+       flex-direction: row;
+       align-items: center;
+       gap: 10%;
+       size: 100%;
+       
+   }
+   
+   .logo {
+   max-width: 130px;
+   max-height: 130px;
+   transition: 0.5s;
+   }
+
+   .logo:hover { 
+   transform: scale(1.1);
+
+   }
+   
+   .hrl {
+    background-color: black;
+    height: 2px;
+   }
+   
+   .jogo1 { 
+       
+       
+       color: black;
+       text-decoration: none;
+       font-family: 'Spline Sans', sans-serif;
+       transition: 0.4s;
+       font-size: 25px;
+      } 
+   
+   .jogo2 { 
+       display: flex;
+       color: black;
+       
+       font-family: 'Spline Sans', sans-serif;
+       transition: 0.4s;
+       font-size: 25px;
+      }
+   
+   .jogo3 { 
+    display: flex;
+    color: black;
+    text-decoration: none;
+    font-family: 'Spline Sans', sans-serif;
+    transition: 0.4s;
+    font-size: 25px;
+   }
+   
+   .jogo1:hover { 
+       text-decoration: none;
+       display: flex;
+       color: rgb(2, 164, 240);
+       text-decoration: none;
+       font-family: 'Spline Sans', sans-serif;
+       transform: scale(1.2);
+   } 
+   .jogo2:hover { 
+       display: flex;
+       color: rgb(2, 164, 240);
+       text-decoration: none;
+       font-family: 'Spline Sans', sans-serif;
+       transform: scale(1.2);
+   } 
+   .jogo3:hover { 
+       display: flex;
+       color: rgb(2, 164, 240);
+       text-decoration: none;
+       font-family: 'Spline Sans', sans-serif;
+       transform: scale(1.2);
+   } 
