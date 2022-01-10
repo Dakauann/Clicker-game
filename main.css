@@ -1,0 +1,114 @@
+#dinheiro {
+    margin: auto;
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+    border: 1px solid black;
+    height: 30px;
+    width: 120px;
+    box-shadow: 10px 16px;
+    min-width: 40%;
+}
+
+#multiplicador {
+  border: 1px solid black;
+  color: black;
+  display: inline-block;
+  font-size: 1.2rem;
+  box-shadow: 10px 10px;
+}
+
+#botao-aumentar {
+    display: flex;
+    padding: 70px;
+    margin: auto;
+    margin-top: 40px;
+    border: none;
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+    box-shadow: 5px 10px gray;
+}
+
+#botao-aumentar:hover {
+    display: flex;
+    padding: 70px;
+    margin: auto;
+    margin-top: 40px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.836);
+    color: rgb(255, 255, 255);
+    font-size: 101%;
+    cursor: pointer;
+    box-shadow: 3px 8px gray;
+    transition: 0.3s;
+}
+
+#botao-aumentar:active {
+    background-color: rgba(0, 0, 0, 0.726);
+}
+
+#upgrades {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  height: 70px;
+  width: 120px;
+}
+
+#x2 {
+    display: flex;
+    border: none;
+    margin-top: 5rem;
+    padding: 15px 20px;
+    transition: 0.5s;
+    background-color: black;
+    color: white;
+}
+
+#x2:hover {
+    border: none;
+    background-color: rgb(80, 80, 80);
+    margin-top: 5rem;
+    padding: 20px;
+    transition: 0.5s;
+    color: white;
+}
+#x3 {
+    display: flex;
+    border: none;
+    padding: 15px 20px;
+    transition: 0.5s;
+    background-color: black;
+    color: white;
+}
+
+#x3:hover {
+    border: none;
+    background-color: rgb(80, 80, 80);
+    padding: 20px;
+    transition: 0.5s;
+}
+
+#x4 {
+    display: flex;
+    border: none;
+    padding: 15px 20px;
+    transition: 0.5s;
+    background-color: black;
+    color: white;
+}
+
+#x4:hover {
+    border: none;
+    background-color: rgb(80, 80, 80);
+    padding: 20px;
+    transition: 0.5s;
+}
+
+#isX2 {
+  display: inline-block;
+  border: 2px solid black;
+  transition: 1s
+}
