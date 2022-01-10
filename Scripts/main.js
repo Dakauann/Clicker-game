@@ -86,3 +86,5 @@ botaoX4.addEventListener('click', () => {
     total.innerText = clicks
     multiplicador.innerText = 'Multiplicador: ' + mainMulti + 'x'
 })
+
+

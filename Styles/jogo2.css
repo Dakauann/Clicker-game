@@ -80,3 +80,70 @@ body {
        font-family: 'Spline Sans', sans-serif;
        transform: scale(1.2);
    } 
+
+   .card {
+
+    background: white;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    text-align: center;
+    height: 100%;
+    border-radius: 1rem;
+    margin: 1.5rem;
+    transition: 0.3s;
+    
+    }
+    
+    .card:hover {
+    
+     transform: scale(1.1);
+    
+    }
+
+    .esta {
+   
+        color: black;
+        
+      }
+      
+      .lol1 {
+      
+       color: black;
+     
+      }
+      
+      .bt1 {
+      
+      width: 50%;
+      height: 70px;
+      border: none;
+      padding: 10px;
+      background: orangered;
+      color: white;
+      transition: 0.3s;
+      border-radius: 22px;
+      font-size: 20px;
+      font-family: 'Oswald', sans-serif;
+      cursor: pointer;
+      
+      }
+      
+      .bt1:hover {
+      
+       background: orange;
+       transform: scale(0.9)
+      
+      
+      }
+      
+      .cards {
+        
+        
+        font-size: 35px;
+      }
+      
+      .imagem {
+       height: 45%;
+       border-radius: 10px;
+      }

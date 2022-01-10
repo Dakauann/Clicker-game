@@ -26,12 +26,10 @@ max-height: 130px;
 }
 
 .jogo1 { 
-    
-    
     color: black;
     font-family: 'Spline Sans', sans-serif;
     transition: 0.4s;
-    font-size: 25px;
+    font-size: 1.4rem;
    } 
 
 .jogo2 { 
@@ -40,7 +38,7 @@ max-height: 130px;
     text-decoration: none;
     font-family: 'Spline Sans', sans-serif;
     transition: 0.4s;
-    font-size: 25px;
+    font-size: 1.4rem;
    }
 
 .jogo3 { 
@@ -49,7 +47,7 @@ max-height: 130px;
  text-decoration: none;
  font-family: 'Spline Sans', sans-serif;
  transition: 0.4s;
- font-size: 25px;
+ font-size: 1.4rem;
 }
 
 .jogo1:hover { 
@@ -84,8 +82,9 @@ max-height: 130px;
     border: 1px solid black;
     height: 30px;
     width: 120px;
-    box-shadow: 10px 16px;
+    box-shadow: 10px 10px ;
     min-width: 40%;
+    border-radius: 10px;
 }
 
 #multiplicador {
@@ -129,16 +128,15 @@ max-height: 130px;
 
 #upgrades {
   display: inline-block;
-  
   gap: 5px;
   height: 70px;
   width: 120px;
 }
 
 #x2 {
+    
     display: flex;
     border: none;
-    margin-top: 5rem;
     padding: 15px 20px;
     transition: 0.5s;
     background-color: black;
@@ -148,10 +146,8 @@ max-height: 130px;
 #x2:hover {
     border: none;
     background-color: rgb(80, 80, 80);
-    margin-top: 5rem;
     padding: 20px;
     transform: scale(1.1);
-    color: white;
 }
 #x3 {
     display: flex;

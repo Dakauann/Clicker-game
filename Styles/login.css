@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Spline+Sans:wght@300&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+}
+h1 {
+ text-align: center;
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ font-weight: 1;
+ font-size: 20px;
+}
+
+#login-main {
+    display: flex;
+    flex-direction: column;
+    width: 30rem;
+    height: 18rem;
+    box-shadow: 2px 2px black;
+    margin: auto;
+    border: 1px solid black;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+
+
+#form {
+    display: flex;
+    flex-direction: column;
+    padding: 60px;
+}
+
+#usuario {
+    border-radius: 1em;
+    padding: 20px;
+    font-size: 15px;
+    font-family: 'Spline Sans', sans-serif;
+    font-weight: normal;
+    text-align: center;
+    color: black;
+    transition: 0.5s;
+    outline-width: 0;
+}
+
+#usuario:focus {
+    border-radius: 1em;
+    padding: 20px;
+    font-size: 15px;
+    font-family: 'Spline Sans', sans-serif;
+    text-align: center;
+    transition: 0.5s;
+    outline-width: 0;
+}
+
+#usuario:hover {
+    background-color: darkgray;
+}
+
+#senha {
+    padding: 20px;
+    text-align: center;
+    border-radius: 1em;
+    font-family: 'Spline Sans', sans-serif;
+    transition: 0.5s;
+}
+
+#senha:hover {
+    background-color: darkgray;
+}
+
+#senha:focus {
+    padding: 20px;
+    text-align: center;
+    border-radius: 1em;
+    font-family: 'Spline Sans', sans-serif;
+    transition: 0.5s;
+    outline-width: 0;
+}
+
+
+
+#enviar {
+    border: none;
+    padding: 20px;
+    font-family: 'Spline Sans', sans-serif;
+    cursor: pointer;
+    transition: 0.4s;
+    padding-top: 20px;
+    border-radius: 1em;
+}
+
+#enviar:hover {
+    border: none;
+    padding: 20px;
+    cursor: pointer;
+    transform: scale(0.9);
+    background-color: gray;
+}
+
+#enviar:focus {
+    transform: scale(1.0);
+    border: none;
+    border: none;
+    padding: 20px;
+    text-align: center;
+    border-radius: 1em;
+    outline-width: 0;
+}
